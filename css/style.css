@@ -9,12 +9,15 @@ body {
   min-height: 100%;
 }
 
-a a:hover {
+
+a.link {
   text-decoration: none;
+  color: inherit;
 }
 
-a {
-  color: inherit;
+a.hover {
+	text-decoration: none;
+	color: darkorange;
 }
 
 .text-muted {
@@ -67,11 +70,6 @@ a {
   color:lightblue;
 }
 
-a.music:hover {
-	color:orange;
-}
-
-	
 
 .record-covers {
 	font-size: 125%;	
@@ -79,6 +77,11 @@ a.music:hover {
 
 .record-cover {
 	margin-top: 20px;
+}
+
+.record-title {
+	color: white;
+	font-size:150%
 }
 
 .videos {

@@ -56,7 +56,7 @@
 <body ng-app="app" ng-controller="pageController">
 
   <!--  only apply the full screen non-scrolling background to the homepage -->
-  <div class="fullscreen" ng-class="{ hello: isActive('/'), experience: isActive('/experience'), about: isActive('/about')}">
+  <div class="fullscreen" ng-class="{ hello: isActive('/'), shows: isActive('/shows'), about: isActive('/about'), music: isActive('/music'), videos: isActive('/videos')}">
     <nav class="navbar">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -77,9 +77,9 @@
               <a ui-sref="hello">
                 <button ng-class="{ active: isActive('/')}" type="button" class="btn btn-danger">hello</button>
               </a>
-            <a ui-sref="experience">
+            <a ui-sref="shows">
               <div class="btn-group" role="group">
-                <button ng-class="{ active: isActive('/experience')}" type="button" class="btn btn-danger">shows</button>
+                <button ng-class="{ active: isActive('/shows')}" type="button" class="btn btn-danger">shows</button>
               </div>
             </a>
                <a ui-sref="about">
@@ -88,23 +88,18 @@
               </div>
             </a>
 
-	    <a ui-sref="about">
+	    <a ui-sref="music">
               <div class="btn-group" role="group">
-                <button ng-class="{ active: isActive('/about')}" type="button" class="btn btn-danger">music</button>
+                <button ng-class="{ active: isActive('/music')}" type="button" class="btn btn-danger">music</button>
               </div>
             </a>
 
-	    <a ui-sref="about">
+	    <a ui-sref="videos">
               <div class="btn-group" role="group">
-                <button ng-class="{ active: isActive('/about')}" type="button" class="btn btn-danger">videos</button>
+                <button ng-class="{ active: isActive('/videos')}" type="button" class="btn btn-danger">videos</button>
               </div>
             </a>
 
-<a ui-sref="about">
-              <div class="btn-group" role="group">
-                <button ng-class="{ active: isActive('/about')}" type="button" class="btn btn-danger">about</button>
-              </div>
-            </a>
 
           </ul>
         </div>

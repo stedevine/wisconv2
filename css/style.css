@@ -46,11 +46,11 @@ a {
 
 .hello {
 	background-color : dark-grey;
-  /*background-image:url('../images/bg.jpg'); */
+  	background-image:url('../images/bg-about.jpg');
 }
 
-.experience {
-  background-image:url('../images/bg5.jpg');
+.shows {
+  background-image:url('../images/bg-shows.jpg');
 }
 
 .about {
@@ -61,6 +61,30 @@ a {
 .about-text {
   color:lightblue !important;
 }
+
+.music {
+  background-image:url('../images/bg-music.jpg');
+  color:lightblue;
+}
+
+a.music:hover {
+	color:orange;
+}
+
+	
+
+.record-covers {
+	font-size: 125%;	
+}
+
+.record-cover {
+	margin-top: 20px;
+}
+
+.videos {
+  background-image:url('../images/bg-videos.jpg');
+}
+
 
 /*
 .round-photo {
@@ -75,6 +99,10 @@ margin-bottom: 10px;
 
 .promo-photo img {
 width:65%;
+}
+
+.record-covers {
+	text-align:left;
 }
 
 .about-live img {
@@ -132,7 +160,8 @@ http://codepen.io/jasondavis/pen/fDGdK
   clear: both;
 }
 .timeline > li > .timeline-panel {
-  background-color: #424272;
+	background: rgba(100, 100, 120, 0.5);
+      	
 
   width: 46%;
   float: left;

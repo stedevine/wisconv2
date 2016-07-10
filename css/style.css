@@ -46,6 +46,10 @@ a.hover {
   background-position: center;
   background-size: cover;
 }
+ .splash-text {
+	 font-size: 350%;
+ 	font-family: Frankie;
+ }
 
 .hello {
 	background-color : dark-grey;

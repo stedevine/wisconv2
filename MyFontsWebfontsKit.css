@@ -1,0 +1,42 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3012259, 2015-04-20T11:58:05-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Frankie by Type-Ø-Tones
+ * URL: http://www.myfonts.com/fonts/typeotones/frankie/regular/
+ * Copyright: Copyright (c) 1992-2005 Type-O-Tones. v 2 by Laura Meseguer &amp; Juan Davila. Barcelona. All rights reserved.
+ * 
+ * Webfont: Appareo-Black by Kimmy Design
+ * URL: http://www.myfonts.com/fonts/kimmy/appareo/black/
+ * Copyright: Copyright (c) 2013 by Kimmy Design. All rights reserved.
+ * 
+ * Webfont: Appareo-LightItalic by Kimmy Design
+ * URL: http://www.myfonts.com/fonts/kimmy/appareo/light-italic/
+ * Copyright: Copyright (c) 2013 by Kimmy Design. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3012259
+ * Licensed pageviews: 10,000
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2df6a3");
+
+  
+@font-face {font-family: 'Frankie';src: url('webfonts/2DF6A3_0_0.eot');src: url('webfonts/2DF6A3_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2DF6A3_0_0.woff2') format('woff2'),url('webfonts/2DF6A3_0_0.woff') format('woff'),url('webfonts/2DF6A3_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Appareo-Black';src: url('webfonts/2DF6A3_1_0.eot');src: url('webfonts/2DF6A3_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2DF6A3_1_0.woff2') format('woff2'),url('webfonts/2DF6A3_1_0.woff') format('woff'),url('webfonts/2DF6A3_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Appareo-LightItalic';src: url('webfonts/2DF6A3_2_0.eot');src: url('webfonts/2DF6A3_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2DF6A3_2_0.woff2') format('woff2'),url('webfonts/2DF6A3_2_0.woff') format('woff'),url('webfonts/2DF6A3_2_0.ttf') format('truetype');}
+ 

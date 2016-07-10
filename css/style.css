@@ -64,6 +64,9 @@ a.hover {
   background-image:url('../images/bg-about.jpg');
   color:orange;
 }
+.about-header {
+	font-family: Frankie;
+}
 
 .about-text {
   color:lightblue !important;
@@ -84,6 +87,7 @@ a.hover {
 }
 
 .record-title {
+	font-family:Frankie;
 	color: white;
 	font-size:150%
 }
@@ -92,6 +96,10 @@ a.hover {
   background-image:url('../images/bg-videos.jpg');
 }
 
+.video-title {
+	font-size: 200%;
+	font-family:Frankie;
+}
 
 /*
 .round-photo {
@@ -274,7 +282,8 @@ http://codepen.io/jasondavis/pen/fDGdK
   background-color: #5bc0de !important;
 }
 .timeline-title {
-  margin-top: 0;
+	font-family:Frankie;
+      	margin-top: 0;
   color: inherit;
 }
 .timeline-body > p,
@@ -283,4 +292,8 @@ http://codepen.io/jasondavis/pen/fDGdK
 }
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+.timeline-date {
+	font-family: Frankie;
 }

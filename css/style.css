@@ -54,7 +54,7 @@ a.hover {
 
 .hello {
 	background-color : dark-grey;
-  	background-image:url('../images/bg-hello.jpg');
+  /*background-image:url('../images/bg-hello.jpg');*/
 }
 
 .shows {
